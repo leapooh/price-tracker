@@ -1,0 +1,13 @@
+{
+    "endpoint": "https://api.telegram.org/bot{TOKEN}/sendMessage",
+    "channel": "", // @Channel
+    "token": "", // Telegram bot token
+    "database": "storage.db", // Database
+    "api": "https://api.coingecko.com/api/v3/coins/{COIN}",
+    "admin": 0, // Admin from Telegram user ID
+    "enabled": true,
+    "tolerance": 3.0,
+    "timeout": 2,
+    "password": "password", // Password for root commands
+    "log": "./log.txt"
+}

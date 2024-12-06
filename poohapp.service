@@ -1,0 +1,11 @@
+[Unit]
+Description=Pooh App Service
+
+[Service]
+ExecStart=/bin/bash -c "/home/user/apps/poohbot/app.sh"
+WorkingDirectory=/home/user
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
